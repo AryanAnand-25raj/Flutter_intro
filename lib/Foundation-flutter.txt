@@ -1,0 +1,97 @@
+Introduction to widgets  Building Blocks : : 
+
+Widgets are used to create the application 
+
+Test widgets - display text
+
+An Image Widgets -- display image 
+
+Bottom widgest responds Taps 
+
+
+A Conmtainer widgets is like a box used for hold the other widgets 
+
+text- image widgets 
+
+In Flutter - Everything is the widgets ,Your entire app is widgest and whole of your app  is just widgets inside the widgets 
+
+Its Widgets all the way down 
+
+
+Types of the Widgets :
+
+            State Less State Full
+
+            State : data and piece of information
+
+            less : No  change state 
+
+            full    : Change state 
+
+
+            A Stateless widgets display information that doesnt change 
+
+            A text show the message and image show that never changes 
+
+            A Stateful widgets can change the appearence based on user interaction
+
+The Root of Everything --> Material app
+
+Material App Set up the Material Design 
+
+Material Design -- modern android look and feel 
+
+
+-- Manages the navigations 
+--Provide app  wide settings 
+
+
+
+
+Widget Tree : Widgets are organised in something called widget tree 
+
+Material App: Parent widgets for myhomepage
+----------------home : myhomepage\  parent widgets for scaffold and child widgets for the Material App
+=========================>scaffold
+----------------------------------------------------->AppBar
+======================================> Body
+--------------------------------------------------------------------------> Your other widgets
+
+
+
+
+Build context 
+
+Build Context is like the flutter is way of saying and the use of the widgets tree is used to define the layout of the contexts 
+
+It gives the surrounding  the access to theme,size z position, and more 
+
+
+
+Example of the mall 
+
+::: You asked the worker about the shop location in the mall and it will 
+tell you to which flutter widgets are you located and tell the user whidh flutter widgets are you located and tell the which 
+
+
+
+Diff in key and content 
+
+Build Content --> Current Position of the Widgets in the widgets tree
+
+Flutter can look up into the theme ,navigator etc 
+
+
+
+
+Heights and the Width of the Widgets 
+
+
+
+container is just like a Box in which we are going to store the value inside of the widgets and allows us to make up the widgets 
+
+Height and Widget , child are the property of the Container 👍
+
+Height is used to denote the height of the container of the widgets and 
+
+But in case of the Column define the column of the widgts of the container 
