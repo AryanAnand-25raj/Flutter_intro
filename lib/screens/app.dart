@@ -1,12 +1,22 @@
-import 'package:aryan_first_project/screens/my_home_screen.dart';
+import 'package:aryan_first_project/screens/quote_screen.dart';
 import 'package:flutter/material.dart';
-// ignore: depend_on_referenced_packages
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key}); // const is uswed to denote the key value pair
+class QuoteApp extends StatelessWidget {
+  const QuoteApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    return MaterialApp(title: "Hello World", home: MyhomeScreen());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Quote Lab',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF7C3AED),
+          brightness: Brightness.dark,
+        ),
+        useMaterial3: true,
+      ),
+      home: const QuoteScreen(),
+    );
   }
 }
