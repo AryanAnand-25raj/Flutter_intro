@@ -20,3 +20,7 @@ class QuoteApp extends StatelessWidget {
     );
   }
 }
+
+class MyApp extends QuoteApp {
+  const MyApp({super.key});
+}
