@@ -18,7 +18,6 @@ class _QuoteScreenState extends State<QuoteScreen> {
     'Consistency compounds over time.',
     'Learn, build, reflect, and ship again.',
   ];
-
   var _currentIndex = 0;
 
   void _generateQuote() {
@@ -81,7 +80,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
                       ],
                     ),
                     const Spacer(),
-                    Text('TODAY'S PROMPT', style: TextStyle(color: colors.primary, fontWeight: FontWeight.w700, letterSpacing: 1.2)),
+                    Text('DAILY PROMPT', style: TextStyle(color: colors.primary, fontWeight: FontWeight.w700, letterSpacing: 1.2)),
                     const SizedBox(height: 14),
                     Container(
                       width: double.infinity,
